@@ -1,0 +1,144 @@
+img {
+  vertical-align: middle;
+}
+#header {
+  display: flex;
+  text-align: center;
+  background-color: #006699;
+  height: .45rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+#header .left {
+  width: .45rem;
+  height: .45rem;
+  color: aliceblue;
+}
+#header .centent {
+  flex: 1;
+  margin: 0;
+  line-height: .45rem;
+  color: aliceblue;
+  font-weight: normal;
+}
+#header .right {
+  width: .45rem;
+  height: .45rem;
+  line-height: .45rem;
+  color: aliceblue;
+}
+#main {
+  background-color: #fff;
+  padding: 45px 0;
+}
+#main #nav {
+  padding: .1rem;
+}
+#main #nav a {
+  display: block;
+}
+#main #nav a img {
+  width: 100%;
+}
+#main #banner .mui-row {
+  padding: .1rem;
+}
+#main #banner .mui-row .left a {
+  display: block;
+}
+#main #banner .mui-row .left a img {
+  width: 50%;
+  height: 1.2rem;
+}
+#main #banner .mui-row .right a {
+  display: block;
+}
+#main #banner .mui-row .right a img {
+  width: 100%;
+  height: 2.4rem;
+}
+#main #brand {
+  padding: .1rem;
+}
+#main #brand .title a {
+  display: block;
+}
+#main #brand .title a img {
+  width: 100%;
+}
+#main #brand .mui-row a {
+  display: block;
+}
+#main #brand .mui-row a img {
+  width: 100%;
+}
+#main #sports {
+  padding: .1rem;
+}
+#main #sports .sportstitle a {
+  display: block;
+}
+#main #sports .sportstitle a img {
+  width: 100%;
+}
+#main #sports .mui-row a {
+  display: block;
+}
+#main #sports .mui-row a img {
+  width: 100%;
+}
+#main #sports .mui-row .mui-col-xs-6 {
+  padding: .05rem;
+}
+#main #sports .mui-row a {
+  display: block;
+  text-align: center;
+  box-shadow: 0 0 .01rem #ccc;
+}
+#main #sports .mui-row a img {
+  width: 100%;
+}
+#main #sports .mui-row a .mui-price {
+  color: #aeaeb2;
+}
+#main #woman {
+  padding: 10px;
+}
+#main #woman a {
+  display: block;
+  height: 3rem;
+}
+#main #woman a img {
+  width: 100%;
+}
+#main #man {
+  padding: 10px;
+}
+#main #man a {
+  display: block;
+  height: 3rem;
+}
+#main #man a img {
+  width: 100%;
+}
+#footer {
+  width: 100%;
+  height: .45rem;
+  background-color: #006699;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+#footer a {
+  display: flex;
+  height: .45rem;
+  color: #fff;
+  font-size: .14rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

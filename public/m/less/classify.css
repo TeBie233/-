@@ -1,0 +1,14 @@
+#header .left {
+  line-height: .45rem;
+}
+#header .centent {
+  display: flex;
+  padding-top: .05rem;
+}
+#header .centent .search {
+  font-size: .14rem;
+  width: 100%;
+  border-radius: .06rem;
+  height: .34rem;
+  padding-left: 0.1rem;
+}

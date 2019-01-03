@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 1. 添加视口 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>自己写的移动端首页</title>
+    <!-- 1. CSS在head中引入  Link
+    2. JS在body结束标签上面引入  script
+    3. 先引入第三方包(方便我们自己使用和覆盖)
+    4. 再引入自己的包
+    5. 如果有依赖关系 先引入被依赖的包 在引入不被依赖的包 -->
+    <!-- 引入MUI的CSS文件 -->
+    <link rel="stylesheet" href="lib/mui/css/mui.css">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- 引入字体图标fontawsome字体图标库的CSS文件 -->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">
+    <!-- 引入主页的less文件 注意 stylesheet/less-->
+    <link rel="stylesheet/less" href="less/index.less">
+    <link rel="stylesheet/less" href="less/classify.less">
+    <!-- 引入less.js的编译器文件 编译less代码 要编译index.less 依赖index.less  影响页面渲染优先执行 -->
+    <script src="lib/less/less.js"></script>
+    <!-- 引入rem.js屏幕适配的JS代码 -->
+    <script src="js/rem.js"></script>
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="header">
+        <a class="left fa fa-arrow-left"></a>
+        <form class="centent ">
+            <input type="text " class="search" placeholder="请输入要搜索的内容">
+        </form>
+        <a class="right fa fa-search"></a></a>
+
+    </header>
+
+
+
+    <!-- 下部分结尾 -->
+    <section id="footer">
+        <div class="mui-row">
+            <div class="mui-col-xs-3">
+                <a href="index.html" class="avtion">
+                    <i class="fa fa-home"></i>
+                    <span>首页</span>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="classify.html">
+                    <i class="fa fa-bars"></i>
+                    <span>分类</span>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>购物车</span>
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="#">
+                    <i class="fa fa-user"></i>
+                    <span>个人中心</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="./lib/mui/js/mui.js"></script>
+    <script src="lib/zepto/zepto.min.js"></script>
+    <script src="lib/artTemplate/template-web.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
